@@ -42,7 +42,7 @@ class pocsag_sender(gr.top_block):
         self.symrate = symrate = 38400
         self.samp_rate = samp_rate = 12000000
         self.pocsagbitrate = pocsagbitrate = 1200
-        self.pagerfreq = pagerfreq = 100880000
+        self.pagerfreq = pagerfreq = 466188000
         self.max_deviation = max_deviation = 4500.0
         self.af_gain = af_gain = 190
 

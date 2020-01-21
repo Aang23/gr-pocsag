@@ -175,7 +175,7 @@ class pocsagsender(gr.sync_block):
 
 		startbit=0
 		stopbit=20 # (actually, the 19th bit)
-		for i in range(ncw):
+		for i in range(int(ncw)):
 			thiscw=textbits[startbit:stopbit]
 			thiscw_i=int(thiscw,2) # convert list of bits to int
 
